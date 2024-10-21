@@ -1,0 +1,41 @@
+.CartSummary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  align-self: flex-end;
+}
+
+@media (max-width: 767px) {
+  .CartSummary {
+    width: 100%;
+    align-self: center;
+  }
+}
+.totalamount {
+  font-family: 'roboto';
+  font-size: 30px;
+  color: #616e7c;
+  font-weight: bold;
+  margin: 10px;
+}
+.totalitem {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #616e7c;
+  font-weight: normal;
+  margin: 10px;
+}
+.checkoutbutton {
+  background-color: #0b69ff;
+  padding: 15px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+}
+.amount {
+  color: #171f46;
+}
